@@ -869,6 +869,7 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 767px) {
+  
   .w-hidden-main, .w-hidden-medium {
     display: inherit !important;
   }
@@ -12291,6 +12292,12 @@ blockquote {
   margin-top: 20px;
   padding-left: 0;
   display: flex;
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .learn-button-block {
+    justify-content: center;
+  }
 }
 
 .ideas-float-image {

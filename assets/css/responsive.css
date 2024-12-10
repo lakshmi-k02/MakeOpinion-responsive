@@ -1,3 +1,6 @@
+
+
+
 /* Big screen :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {}
 
@@ -1272,6 +1275,8 @@ section.question-section {
         background-color: rgba(0, 112, 223, 0.1) !important;
         transform: translateY(-1px) !important;
     }
+
+
 }
 
 
